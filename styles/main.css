@@ -108,6 +108,11 @@ transition: transform .2s;
     justify-content: center;
     align-items: center;
     padding: 10px;
+    
+}
+
+.search form {
+  width: 100%;
 }
 
 .search form input {
