@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clon de Whatsapp - Entrega</title>
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -30,9 +30,7 @@
                 </div>
             </header>
             <div class="search">
-              <form>
-                 <input type="search" placeholder="Buscar un chat o iniciar uno nuevo">
-              </form>
+                 <input id="search" placeholder="Buscar un chat o iniciar uno nuevo">
             </div>
             <section class="chats">
             <ul>
@@ -130,5 +128,7 @@
     
      
      
+     <script src="./src/app/filterData.js"></script>
+     <script src="./src/app/handleMessages.js"></script>
 </body>
 </html>
